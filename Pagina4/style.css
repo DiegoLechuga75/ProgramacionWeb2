@@ -32,6 +32,7 @@ header{
     padding: 0.8rem 1rem;
     border-radius: 5px;
     font-weight: bold;
+    text-align: center;
     transition: 150ms;
 }
 
@@ -46,10 +47,19 @@ header{
     border-radius: 5px;
     display: grid;
     place-items: center;
+    position: relative;
 }
 
 .logo-container img{
-    width: 7rem;
+    width: 6.5rem;
+    position: relative;
+}
+
+.shopping-cart{
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    position: relative;
 }
 
 #shopping-menu{
@@ -196,6 +206,21 @@ header{
     height: 90%;
     padding: 1.5rem;
     align-items: center;
+    gap: 1rem;
+    box-sizing: content-box;
+}
+
+.card h2{
+    font-size: 1.3rem;
+}
+
+.card h3{
+    font-size: 1.3rem;
+    color: #252422;
+}
+
+.card p{
+    font-size: 0.9rem;
 }
 
 .image-card-container{
@@ -235,4 +260,67 @@ header{
 .card button:hover{
     transform: scale(1.1);
     transition: 200ms;
+}
+
+@media only screen and (max-width: 600px) {
+
+    header{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding: 0.5rem 0.3rem;
+    }
+
+    .nav-bar{
+        list-style: none;
+        display: flex;
+        align-items: center;
+        gap: 0.5rem;
+        position: relative;
+    }
+
+    .nav-item{
+        font-size: 0.55rem;
+        padding: 0.3rem 0.5rem;
+    }
+
+    .icon-container{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 2rem;
+        padding: 0.35rem 0.25rem;
+        border-radius: 50%;
+        background-color: #FFFCF2;
+    }
+    
+    .icon-container img{
+        width: 1.5rem;
+    }
+
+    #shopping-cart:hover #shopping-menu{
+        max-height: 100px;
+        max-width: 50px;
+        max-height: 150px;
+        max-width: 100px;
+        left: -65%;
+        top: 100%;
+    }
+
+    .logo-container img{
+        width: 2rem;
+    }
+    .cards-container{
+        grid-template-columns: 1fr;
+    }
+
+    .card{
+        width: 100%;
+    }
+}
+
+@media only screen and (max-width: 992px) and  (min-width: 600px){
+    .cards-container{
+        grid-template-columns: 1fr 1fr;
+    }
 }
