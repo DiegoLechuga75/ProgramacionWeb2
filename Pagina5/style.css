@@ -6,7 +6,7 @@
 }
 
 body{
-    background-color: #252422;
+    background-color: #000F08;
 }
 
 header{
@@ -14,9 +14,43 @@ header{
     align-items: center;
     justify-content: space-between;
     padding: 1rem 2rem;
-    background: rgb(255,252,242);
-    background: linear-gradient(90deg, rgba(255,252,242,1) 16%, rgba(235,94,40,1) 44%, rgba(235,94,40,1) 100%);
-    color: #000000;
+    background: #000F08;
+    color: #FFFCF2;
+    box-shadow: rgba(240, 46, 169, 0.8) 0px 5px, rgba(240, 46, 170, 0.5) 0px 10px, rgba(240, 46, 170, 0.3) 0px 15px, rgba(240, 46, 170, 0.2) 0px 20px, rgba(240, 46, 170, 0.1) 0px 25px;
+}
+
+#search-game{
+    display: flex;
+    gap: 0.8rem;
+    width: 40%;
+}
+
+#search-game input{
+    background-color: #FFFCF2;
+    color: #000F08;
+    border-radius: 100vw;
+    border: none;
+    padding: 0.5rem 1rem;
+    width: 70%;
+}
+
+#search-game input:focus{
+    outline: none;
+}
+
+#search-game button{
+    background-color: rgba(240, 46, 170);
+    border: none;
+    color: #FFFCF2;
+    border-radius: 100vw;
+    padding: 0.3rem 0.8rem;
+    transition: 150ms;
+    font-weight: bold;
+}
+
+#search-game button:hover{
+    transform: scale(1.1);
+    transition: 150ms;
 }
 
 .nav-bar{
@@ -28,8 +62,6 @@ header{
 }
 
 .nav-item{
-    background-color: #FFFCF2;
-    padding: 0.8rem 1rem;
     border-radius: 5px;
     font-weight: bold;
     text-align: center;
@@ -41,8 +73,17 @@ header{
     transition: 150ms;
 }
 
+
+.console-icon-container{
+    width: 100%;
+}
+
+.console-icon-container img{
+    width: 3.5rem;
+    filter: invert(100%);
+}
+
 .logo-container{
-    background-color: #FFFCF2;
     padding: 1rem;
     border-radius: 5px;
     display: grid;
@@ -124,6 +165,7 @@ header{
     top: 100%;
     z-index: 1;
     background-color: #FFFCF2;
+    color: #252422;
     padding: 20px;
     min-height: 400px;
     min-width: 300px;
@@ -141,6 +183,7 @@ header{
     display: flex;
     justify-content: space-between;
     align-items: center;
+    padding: 0.3rem 0.5rem;
 }
 
 .shopping-cart-item button{
@@ -153,7 +196,7 @@ header{
 }
 
 .shopping-cart-item button:hover{
-    border: none;
+    border: #25242200 solid 1px;
     color: white;
     background-color: crimson;
     transition: 150ms;
@@ -164,6 +207,7 @@ header{
     justify-content: space-between;
     align-items: center;
     gap: 1rem;
+    padding: 0.3rem 0.8rem;
 }
 
 .info-item img{
@@ -232,7 +276,7 @@ header{
 
 .image-card-container img{
     width: 50%;
-    height: 90%;
+    height: 100%;
 }
 
 .info-container{
