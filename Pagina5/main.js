@@ -6,7 +6,8 @@ const menuItems = [
         price: "1199.99",
         src: "https://m.media-amazon.com/images/I/81nWynmiDPL._AC_SL1500_.jpg",
         alt: "halo-image",
-        platform: "xbox"
+        platform: "xbox",
+        trailer: "https://www.youtube.com/embed/PyMlV5_HRWk?si=LKDE_g3tNxO_vjV5",
     },
     {
         title: "Gears of War: Ultimate Edition",
@@ -14,7 +15,8 @@ const menuItems = [
         price: "1199.99",
         src: "https://m.media-amazon.com/images/I/91LJr7Q4SQL._AC_SL1500_.jpg",
         alt: "gears-image",
-        platform: "xbox"
+        platform: "xbox",
+        trailer: "https://www.youtube.com/embed/wBjS9EpKY4w?si=qSrGkBV_spp4Jh6s",
     },
     {
         title: "Forza Horizon 5",
@@ -22,7 +24,8 @@ const menuItems = [
         price: "1199.99",
         src: "https://m.media-amazon.com/images/I/71MGlZZqIzL._AC_SL1290_.jpg",
         alt: "forza-image",
-        platform: "xbox"
+        platform: "xbox",
+        trailer: "https://www.youtube.com/embed/Rv7xLt5yNsM?si=M8gKg-H3kSkTiGaE",
     },
     {
         title: "Metal Gear Solid Delta: Snake Eater",
@@ -30,7 +33,8 @@ const menuItems = [
         price: "1199.99",
         src: "https://m.media-amazon.com/images/I/81Aai5SDanL._AC_SL1500_.jpg",
         alt: "metal-image",
-        platform: "xbox"
+        platform: "xbox",
+        trailer: "https://www.youtube.com/embed/VTVaEPHa9Bc?si=AbDgSE4K5LuJ1Lmw",
     },
     {
         title: "Elden Ring",
@@ -38,7 +42,8 @@ const menuItems = [
         price: "1199.99",
         src: "https://m.media-amazon.com/images/I/718Psopj65L._AC_SL1346_.jpg",
         alt: "elden-image",
-        platform: "xbox"
+        platform: "xbox",
+        trailer: "https://www.youtube.com/embed/AKXiKBnzpBQ?si=ZzoSOOPo1ccHEGy8",
     },
     {
         title: "The Last of Us Part II Remastered",
@@ -46,7 +51,8 @@ const menuItems = [
         price: "1199.99",
         src: "https://m.media-amazon.com/images/I/71eK4zlswgL._AC_SL1500_.jpg",
         alt: "tlou-image",
-        platform: "playstation"
+        platform: "playstation",
+        trailer: "https://www.youtube.com/embed/-llaUBqovHw?si=uW0-ZUdr12qIKh1P",
     },
     {
         title: "God of War Ragnarök",
@@ -54,7 +60,8 @@ const menuItems = [
         price: "1199.99",
         src: "https://m.media-amazon.com/images/I/81fBLI9vSQL._AC_SL1500_.jpg",
         alt: "god-image",
-        platform: "playstation"
+        platform: "playstation",
+        trailer: "https://www.youtube.com/embed/EE-4GvjKcfs?si=PNF3n268fM9RSPKm",
     },
     {
         title: "Spiderman 2",
@@ -62,7 +69,8 @@ const menuItems = [
         price: "1199.99",
         src: "https://m.media-amazon.com/images/I/712Z8M12mAL._AC_SL1500_.jpg",
         alt: "spiderman-image",
-        platform: "playstation"
+        platform: "playstation",
+        trailer: "https://www.youtube.com/embed/9fVYKsEmuRo?si=U9sTJeMRixx1HZv1",
     },
     {
         title: "Ghost of Tsushima",
@@ -70,7 +78,8 @@ const menuItems = [
         price: "1199.99",
         src: "https://m.media-amazon.com/images/I/81XPzboI34S._AC_SL1500_.jpg",
         alt: "ghost-image",
-        platform: "playstation"
+        platform: "playstation",
+        trailer: "https://www.youtube.com/embed/Zbq7BnsQhrw?si=UwX-BCUxu6eNqrb6",
     },
     {
         title: "Uncharted: Legacy of Thieves Collection",
@@ -78,7 +87,8 @@ const menuItems = [
         price: "1199.99",
         src: "https://m.media-amazon.com/images/I/81olw39iEsL._AC_SL1500_.jpg",
         alt: "uncharted-image",
-        platform: "playstation"
+        platform: "playstation",
+        trailer: "https://www.youtube.com/embed/hh5HV4iic1Y?si=Eem7QeqdjLuN3X7C",
     },
     {
         title: "Super Mario Odyssey",
@@ -86,7 +96,8 @@ const menuItems = [
         price: "1199.99",
         src: "https://m.media-amazon.com/images/I/81sS-oqpkLS._AC_SL1500_.jpg",
         alt: "mario-o-image",
-        platform: "nintendo"
+        platform: "nintendo",
+        trailer: "https://www.youtube.com/embed/wGQHQc_3ycE?si=-pbsLWGa7zM3YwKb",
     },
     {
         title: "Zelda Breath of the Wild",
@@ -94,7 +105,8 @@ const menuItems = [
         price: "1199.99",
         src: "https://m.media-amazon.com/images/I/716IChJgUzS._AC_SL1200_.jpg",
         alt: "zelda-botw-image",
-        platform: "nintendo"
+        platform: "nintendo",
+        trailer: "https://www.youtube.com/embed/1rPxiXXxftE?si=Xzep4a9xk523jxhw",
     },
     {
         title: "Zelda Tears of the Kingdom",
@@ -102,7 +114,8 @@ const menuItems = [
         price: "1199.99",
         src: "https://m.media-amazon.com/images/I/71glcphYY0L._AC_SL1500_.jpg",
         alt: "zelda-totk-image",
-        platform: "nintendo"
+        platform: "nintendo",
+        trailer: "https://www.youtube.com/embed/uHGShqcAHlQ?si=trOoye5WsHdft4gu",
     },
     {
         title: "Pokemón Legends: Arceus",
@@ -110,7 +123,8 @@ const menuItems = [
         price: "1199.99",
         src: "https://m.media-amazon.com/images/I/71NSivnAE6L._AC_SL1483_.jpg",
         alt: "pokemon-image",
-        platform: "nintendo"
+        platform: "nintendo",
+        trailer: "https://www.youtube.com/embed/wOEHUANP-vo?si=3KmFDxDedmOOrdHJ",
     },
     {
         title: "Kirby and the Forgotten Land",
@@ -118,7 +132,8 @@ const menuItems = [
         price: "1199.99",
         src: "https://m.media-amazon.com/images/I/81kfvGfF+SL._AC_SL1500_.jpg",
         alt: "kirby-image",
-        platform: "nintendo"
+        platform: "nintendo",
+        trailer: "https://www.youtube.com/embed/H3LAkr0ANgw?si=vmZ2qwHjqjikq-qU",
     },
 ];
 
@@ -150,6 +165,10 @@ const renderCards = () => {
                 <button>Añadir al carrito</button>
             </div>
         `)
+    });
+    const cardSelection = [...document.querySelectorAll(".card")];
+    cardSelection.forEach((card) => {
+        card.addEventListener("click", (e) => displayGame(e));
     })
     const cardsButtons = [...document.querySelectorAll(".card button")];
     cardsButtons.forEach((button) => {
@@ -208,6 +227,7 @@ const renderPrice = () => {
 }
 
 const addToCart = (e) => {
+    e.stopPropagation();
     let titleCard = e.target.parentElement.children[1].children[0].textContent;
     let indexOnItems = menuItems.findIndex((item) => item.title === titleCard);
     let isAlreadyOnCart = cartItems.some((item) => item.title === titleCard);
@@ -258,12 +278,23 @@ const handleSearch = (e) => {
     e.preventDefault();
     resetItems();
     let inputText = document.querySelector("#search-game input").value;
-    const newMenuItems = menuItems.filter((item) => item.title.includes(inputText));
+    const newMenuItems = menuItems.filter((item) => item.title.toLowerCase().includes(inputText.toLowerCase()));
     menuItems.splice(0, menuItems.length);
     newMenuItems.forEach((item) => {
         menuItems.push(item);
     })
     renderCards();
+}
+
+const displayGame = (e) => {
+    let clickedGame = e.currentTarget.children[1].children[0].textContent;
+    let selectedGame = originalItems.find((item) => item.title === clickedGame);
+    let infoDisplayed = document.querySelector(".info-displayed");
+    infoDisplayed.children[0].textContent = selectedGame.title;
+    infoDisplayed.children[1].textContent = selectedGame.description;
+    let videoContainer = document.querySelector(".video-container");
+    videoContainer.children[0].src = `${selectedGame.trailer}&autoplay=1`;
+    document.querySelector(".displayed-container").scrollIntoView({ behavior: "smooth", block: "start" });
 }
 
 document.addEventListener("DOMContentLoaded", () => renderCards());
