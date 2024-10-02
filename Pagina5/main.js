@@ -293,7 +293,7 @@ const displayGame = (e) => {
     infoDisplayed.children[0].textContent = selectedGame.title;
     infoDisplayed.children[1].textContent = selectedGame.description;
     let videoContainer = document.querySelector(".video-container");
-    videoContainer.children[0].src = `${selectedGame.trailer}&autoplay=1`;
+    videoContainer.children[0].src = `${selectedGame.trailer}&amp;start=25&autoplay=1`;
     document.querySelector(".displayed-container").scrollIntoView({ behavior: "smooth", block: "start" });
 }
 
